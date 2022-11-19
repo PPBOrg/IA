@@ -316,7 +316,7 @@ total_load = 0
 while len(all_locations)>0:
     while total_load < CAPACITY and len(all_locations)>0:
         for location in all_locations:
-            came_from, cost_so_far = greedy(diagram4, start, location)
+            came_from, cost_so_far = a_star_search(diagram4, start, location)
             all_locations[location] = cost_so_far[location]
 
         left_locations = sorted(all_locations, key = all_locations.get)
@@ -330,7 +330,7 @@ while len(all_locations)>0:
         print("Próximo Destino : " + str(location))
         #draw_grid(diagram4, point_to=came_from, start=start, goal=location)
         #print(came_from)
-        came_from, cost_so_far = greedy(diagram4, start, location)
+        came_from, cost_so_far = a_star_search(diagram4, start, location)
         draw_grid(diagram4, path=reconstruct_path(came_from, start=start, goal=location))
         total_load += 1
         del all_locations[location]
@@ -349,7 +349,7 @@ while len(all_locations)>0:
     print("Capacidade : " + str(total_load) +" / "+str(CAPACITY))
     print("Posição Inicial : " + str(start))
     print("Próximo Destino : " + str(goal))
-    came_from, cost_so_far = greedy(diagram4, start, goal)
+    came_from, cost_so_far = a_star_search(diagram4, start, goal)
     draw_grid(diagram4, path=reconstruct_path(came_from, start=start, goal=goal))
     total_load = 0
     start = goal
