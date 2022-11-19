@@ -1,0 +1,73 @@
+Timestamp;Tempo;Algoritmo;Start;Goal;Capacidade;Load;Custo;Custo Total;Restantes Encomendas;Tipo de Trajeto
+1668880094.2543178,1.6817569732666016,Breadth-First Search,"(39, 10)","(2, 4)",4,1,49,49,14,Recolha de Encomenda
+1668880095.9325268,3.3599660396575928,Breadth-First Search,"(2, 4)","(2, 16)",4,2,12,61,13,Recolha de Encomenda
+1668880097.6330957,5.060534954071045,Breadth-First Search,"(2, 16)","(6, 14)",4,3,10,71,12,Recolha de Encomenda
+1668880099.297809,6.725248098373413,Breadth-First Search,"(6, 14)","(9, 6)",4,4,11,82,11,Recolha de Encomenda
+1668880100.9160252,8.343464374542236,Breadth-First Search,"(9, 6)","(39, 10)",4,0,0,126,10,Retorno à Base
+1668880102.617985,10.045424222946167,Breadth-First Search,"(39, 10)","(13, 14)",4,1,38,164,10,Recolha de Encomenda
+1668880104.3109348,11.73837399482727,Breadth-First Search,"(13, 14)","(16, 5)",4,2,12,176,9,Recolha de Encomenda
+1668880105.9453874,13.37282657623291,Breadth-First Search,"(16, 5)","(20, 8)",4,3,7,183,8,Recolha de Encomenda
+1668880107.6136718,15.04111099243164,Breadth-First Search,"(20, 8)","(20, 13)",4,4,5,188,7,Recolha de Encomenda
+1668880109.2502646,16.677703857421875,Breadth-First Search,"(20, 13)","(39, 10)",4,0,0,216,6,Retorno à Base
+1668880110.9202206,18.347659826278687,Breadth-First Search,"(39, 10)","(23, 9)",4,1,29,245,6,Recolha de Encomenda
+1668880112.5813313,20.00877046585083,Breadth-First Search,"(23, 9)","(27, 5)",4,2,12,257,5,Recolha de Encomenda
+1668880114.2151365,21.64257574081421,Breadth-First Search,"(27, 5)","(27, 14)",4,3,9,266,4,Recolha de Encomenda
+1668880115.8536997,23.28113889694214,Breadth-First Search,"(27, 14)","(29, 7)",4,4,9,275,3,Recolha de Encomenda
+1668880117.6152263,25.042665481567383,Breadth-First Search,"(29, 7)","(39, 10)",4,0,0,288,2,Retorno à Base
+1668880119.566539,26.993978261947632,Breadth-First Search,"(39, 10)","(33, 14)",4,1,14,302,2,Recolha de Encomenda
+1668880121.1907697,28.61820888519287,Breadth-First Search,"(33, 14)","(38, 5)",4,2,18,320,1,Recolha de Encomenda
+1668880122.7978969,30.2253360748291,Breadth-First Search,"(38, 5)","(39, 10)",4,0,0,340,0,Retorno à Base
+1668880138.320127,1.6972122192382812,Dijkstra Search (Uniform Cost),"(39, 10)","(29, 7)",4,1,13,13,14,Recolha de Encomenda
+1668880139.9724114,3.349496603012085,Dijkstra Search (Uniform Cost),"(29, 7)","(27, 5)",4,2,4,17,13,Recolha de Encomenda
+1668880141.6537852,5.03087043762207,Dijkstra Search (Uniform Cost),"(27, 5)","(27, 14)",4,3,9,26,12,Recolha de Encomenda
+1668880143.34859,6.725675106048584,Dijkstra Search (Uniform Cost),"(27, 14)","(33, 14)",4,4,6,32,11,Recolha de Encomenda
+1668880145.0120819,8.389167070388794,Dijkstra Search (Uniform Cost),"(33, 14)","(39, 10)",4,0,0,46,10,Retorno à Base
+1668880146.7481675,10.125252723693848,Dijkstra Search (Uniform Cost),"(39, 10)","(38, 5)",4,1,20,66,10,Recolha de Encomenda
+1668880148.485514,11.86259913444519,Dijkstra Search (Uniform Cost),"(38, 5)","(23, 9)",4,2,23,89,9,Recolha de Encomenda
+1668880150.1835303,13.560615539550781,Dijkstra Search (Uniform Cost),"(23, 9)","(20, 8)",4,3,4,93,8,Recolha de Encomenda
+1668880151.8226545,15.199739694595337,Dijkstra Search (Uniform Cost),"(20, 8)","(20, 13)",4,4,5,98,7,Recolha de Encomenda
+1668880153.4778564,16.854941606521606,Dijkstra Search (Uniform Cost),"(20, 13)","(39, 10)",4,0,0,126,6,Retorno à Base
+1668880155.2304294,18.60751461982727,Dijkstra Search (Uniform Cost),"(39, 10)","(16, 5)",4,1,36,162,6,Recolha de Encomenda
+1668880156.982095,20.359180212020874,Dijkstra Search (Uniform Cost),"(16, 5)","(9, 6)",4,2,12,174,5,Recolha de Encomenda
+1668880158.602092,21.979177236557007,Dijkstra Search (Uniform Cost),"(9, 6)","(6, 14)",4,3,11,185,4,Recolha de Encomenda
+1668880160.2447734,23.621858596801758,Dijkstra Search (Uniform Cost),"(6, 14)","(2, 16)",4,4,10,195,3,Recolha de Encomenda
+1668880161.9513135,25.32839870452881,Dijkstra Search (Uniform Cost),"(2, 16)","(39, 10)",4,0,0,242,2,Retorno à Base
+1668880163.6891112,27.06619644165039,Dijkstra Search (Uniform Cost),"(39, 10)","(13, 14)",4,1,38,280,2,Recolha de Encomenda
+1668880165.4013464,28.77843165397644,Dijkstra Search (Uniform Cost),"(13, 14)","(2, 4)",4,2,25,305,1,Recolha de Encomenda
+1668880166.9995189,30.376604080200195,Dijkstra Search (Uniform Cost),"(2, 4)","(39, 10)",4,0,0,354,0,Retorno à Base
+1668880176.2530286,1.7047207355499268,Greedy Search,"(39, 10)","(38, 5)",4,1,20,20,14,Recolha de Encomenda
+1668880177.9734383,3.4251303672790527,Greedy Search,"(38, 5)","(27, 5)",4,2,11,31,13,Recolha de Encomenda
+1668880179.9887846,5.440476655960083,Greedy Search,"(27, 5)","(29, 7)",4,3,4,35,12,Recolha de Encomenda
+1668880181.6618094,7.11350154876709,Greedy Search,"(29, 7)","(23, 9)",4,4,16,51,11,Recolha de Encomenda
+1668880183.3530052,8.804697275161743,Greedy Search,"(23, 9)","(39, 10)",4,0,0,80,10,Retorno à Base
+1668880185.0346677,10.48635983467102,Greedy Search,"(39, 10)","(33, 14)",4,1,14,94,10,Recolha de Encomenda
+1668880186.7037249,12.15541696548462,Greedy Search,"(33, 14)","(27, 14)",4,2,6,100,9,Recolha de Encomenda
+1668880188.354866,13.80655813217163,Greedy Search,"(27, 14)","(20, 13)",4,3,12,112,8,Recolha de Encomenda
+1668880190.06802,15.519712209701538,Greedy Search,"(20, 13)","(20, 8)",4,4,5,117,7,Recolha de Encomenda
+1668880191.7288535,17.180545568466187,Greedy Search,"(20, 8)","(39, 10)",4,0,0,150,6,Retorno à Base
+1668880193.358107,18.809799194335938,Greedy Search,"(39, 10)","(16, 5)",4,1,38,188,6,Recolha de Encomenda
+1668880195.0039918,20.455683946609497,Greedy Search,"(16, 5)","(9, 6)",4,2,12,200,5,Recolha de Encomenda
+1668880196.667908,22.11960005760193,Greedy Search,"(9, 6)","(2, 4)",4,3,15,215,4,Recolha de Encomenda
+1668880198.2483957,23.700087785720825,Greedy Search,"(2, 4)","(2, 16)",4,4,12,227,3,Recolha de Encomenda
+1668880199.7846057,25.236297845840454,Greedy Search,"(2, 16)","(39, 10)",4,0,0,294,2,Retorno à Base
+1668880201.4193852,26.871077299118042,Greedy Search,"(39, 10)","(13, 14)",4,1,40,334,2,Recolha de Encomenda
+1668880203.0154305,28.467122554779053,Greedy Search,"(13, 14)","(6, 14)",4,2,11,345,1,Recolha de Encomenda
+1668880204.6831443,30.134836435317993,Greedy Search,"(6, 14)","(39, 10)",4,0,0,398,0,Retorno à Base
+1668880220.2449734,1.7052099704742432,A* Search,"(39, 10)","(33, 14)",4,1,14,14,14,Recolha de Encomenda
+1668880221.94375,3.4039864540100098,A* Search,"(33, 14)","(27, 14)",4,2,6,20,13,Recolha de Encomenda
+1668880223.5907872,5.051023721694946,A* Search,"(27, 14)","(27, 5)",4,3,9,29,12,Recolha de Encomenda
+1668880225.2658248,6.7260613441467285,A* Search,"(27, 5)","(29, 7)",4,4,4,33,11,Recolha de Encomenda
+1668880226.896664,8.356900453567505,A* Search,"(29, 7)","(39, 10)",4,0,0,46,10,Retorno à Base
+1668880228.5914824,10.051718950271606,A* Search,"(39, 10)","(38, 5)",4,1,20,66,10,Recolha de Encomenda
+1668880230.2993217,11.759558200836182,A* Search,"(38, 5)","(23, 9)",4,2,23,89,9,Recolha de Encomenda
+1668880231.9348469,13.3950834274292,A* Search,"(23, 9)","(20, 8)",4,3,4,93,8,Recolha de Encomenda
+1668880233.6170998,15.077336311340332,A* Search,"(20, 8)","(20, 13)",4,4,5,98,7,Recolha de Encomenda
+1668880235.2728992,16.73313570022583,A* Search,"(20, 13)","(39, 10)",4,0,0,126,6,Retorno à Base
+1668880236.9029906,18.363227128982544,A* Search,"(39, 10)","(16, 5)",4,1,36,162,6,Recolha de Encomenda
+1668880238.5687788,20.02901530265808,A* Search,"(16, 5)","(9, 6)",4,2,12,174,5,Recolha de Encomenda
+1668880240.4668818,21.9271183013916,A* Search,"(9, 6)","(2, 4)",4,3,13,187,4,Recolha de Encomenda
+1668880242.2346127,23.694849252700806,A* Search,"(2, 4)","(2, 16)",4,4,12,199,3,Recolha de Encomenda
+1668880243.9093578,25.36959433555603,A* Search,"(2, 16)","(39, 10)",4,0,0,246,2,Retorno à Base
+1668880245.5269754,26.98721194267273,A* Search,"(39, 10)","(13, 14)",4,1,38,284,2,Recolha de Encomenda
+1668880247.132675,28.5929114818573,A* Search,"(13, 14)","(6, 14)",4,2,11,295,1,Recolha de Encomenda
+1668880248.7876463,30.247882843017578,A* Search,"(6, 14)","(39, 10)",4,0,0,340,0,Retorno à Base
