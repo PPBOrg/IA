@@ -1,0 +1,72 @@
+1668886176;1.754509449;Breadth-First Search;(39, 10);(2, 4);4;1;49;49;14;Recolha de Encomenda
+1668886178;3.563149214;Breadth-First Search;(2, 4);(2, 16);4;2;12;61;13;Recolha de Encomenda
+1668886179;5.049487829;Breadth-First Search;(2, 16);(6, 14);4;3;10;71;12;Recolha de Encomenda
+1668886181;6.710803986;Breadth-First Search;(6, 14);(9, 6);4;4;11;82;11;Recolha de Encomenda
+1668886182;8.233384609;Breadth-First Search;(9, 6);(39, 10);4;0;0;126;10;Retorno à Base
+1668886184;9.781205893;Breadth-First Search;(39, 10);(13, 14);4;1;38;164;10;Recolha de Encomenda
+1668886185;11.25521684;Breadth-First Search;(13, 14);(16, 5);4;2;12;176;9;Recolha de Encomenda
+1668886187;12.72932529;Breadth-First Search;(16, 5);(20, 8);4;3;7;183;8;Recolha de Encomenda
+1668886188;14.16788483;Breadth-First Search;(20, 8);(20, 13);4;4;5;188;7;Recolha de Encomenda
+1668886190;15.66618896;Breadth-First Search;(20, 13);(39, 10);4;0;0;216;6;Retorno à Base
+1668886191;17.23639274;Breadth-First Search;(39, 10);(23, 9);4;1;29;245;6;Recolha de Encomenda
+1668886193;18.72853661;Breadth-First Search;(23, 9);(27, 5);4;2;12;257;5;Recolha de Encomenda
+1668886194;20.19875574;Breadth-First Search;(27, 5);(27, 14);4;3;9;266;4;Recolha de Encomenda
+1668886196;21.69361687;Breadth-First Search;(27, 14);(29, 7);4;4;9;275;3;Recolha de Encomenda
+1668886197;23.23420763;Breadth-First Search;(29, 7);(39, 10);4;0;0;288;2;Retorno à Base
+1668886199;24.78238106;Breadth-First Search;(39, 10);(33, 14);4;1;14;302;2;Recolha de Encomenda
+1668886200;26.27945423;Breadth-First Search;(33, 14);(38, 5);4;2;18;320;1;Recolha de Encomenda
+1668886202;27.75644827;Breadth-First Search;(38, 5);(39, 10);4;0;0;340;0;Retorno à Base
+1668886206;1.471054792;Dijkstra Search (Uniform Cost);(39, 10);(29, 7);4;1;13;13;14;Recolha de Encomenda
+1668886207;2.959467173;Dijkstra Search (Uniform Cost);(29, 7);(27, 5);4;2;4;17;13;Recolha de Encomenda
+1668886209;4.439696312;Dijkstra Search (Uniform Cost);(27, 5);(27, 14);4;3;9;26;12;Recolha de Encomenda
+1668886210;5.926181555;Dijkstra Search (Uniform Cost);(27, 14);(33, 14);4;4;6;32;11;Recolha de Encomenda
+1668886212;7.436176777;Dijkstra Search (Uniform Cost);(33, 14);(39, 10);4;0;0;46;10;Retorno à Base
+1668886213;9.001405954;Dijkstra Search (Uniform Cost);(39, 10);(38, 5);4;1;20;66;10;Recolha de Encomenda
+1668886215;10.7326324;Dijkstra Search (Uniform Cost);(38, 5);(23, 9);4;2;23;89;9;Recolha de Encomenda
+1668886217;12.3171773;Dijkstra Search (Uniform Cost);(23, 9);(20, 8);4;3;4;93;8;Recolha de Encomenda
+1668886218;13.91409302;Dijkstra Search (Uniform Cost);(20, 8);(20, 13);4;4;5;98;7;Recolha de Encomenda
+1668886220;15.42840743;Dijkstra Search (Uniform Cost);(20, 13);(39, 10);4;0;0;126;6;Retorno à Base
+1668886222;17.29072833;Dijkstra Search (Uniform Cost);(39, 10);(16, 5);4;1;36;162;6;Recolha de Encomenda
+1668886223;18.93575335;Dijkstra Search (Uniform Cost);(16, 5);(9, 6);4;2;12;174;5;Recolha de Encomenda
+1668886225;20.43644357;Dijkstra Search (Uniform Cost);(9, 6);(6, 14);4;3;11;185;4;Recolha de Encomenda
+1668886226;21.89699912;Dijkstra Search (Uniform Cost);(6, 14);(2, 16);4;4;10;195;3;Recolha de Encomenda
+1668886228;23.35234165;Dijkstra Search (Uniform Cost);(2, 16);(39, 10);4;0;0;242;2;Retorno à Base
+1668886229;24.88278818;Dijkstra Search (Uniform Cost);(39, 10);(13, 14);4;1;38;280;2;Recolha de Encomenda
+1668886231;26.36928511;Dijkstra Search (Uniform Cost);(13, 14);(2, 4);4;2;25;305;1;Recolha de Encomenda
+1668886232;27.9142592;Dijkstra Search (Uniform Cost);(2, 4);(39, 10);4;0;0;354;0;Retorno à Base
+1668886240;1.534801722;Greedy Search;(39, 10);(38, 5);4;1;20;20;14;Recolha de Encomenda
+1668886241;3.027100801;Greedy Search;(38, 5);(27, 5);4;2;11;31;13;Recolha de Encomenda
+1668886243;4.500371695;Greedy Search;(27, 5);(29, 7);4;3;4;35;12;Recolha de Encomenda
+1668886244;6.034708023;Greedy Search;(29, 7);(23, 9);4;4;16;51;11;Recolha de Encomenda
+1668886246;7.499239922;Greedy Search;(23, 9);(39, 10);4;0;0;80;10;Retorno à Base
+1668886247;9.07747364;Greedy Search;(39, 10);(33, 14);4;1;14;94;10;Recolha de Encomenda
+1668886249;10.59606481;Greedy Search;(33, 14);(27, 14);4;2;6;100;9;Recolha de Encomenda
+1668886250;12.0944972;Greedy Search;(27, 14);(20, 13);4;3;12;112;8;Recolha de Encomenda
+1668886252;13.56691551;Greedy Search;(20, 13);(20, 8);4;4;5;117;7;Recolha de Encomenda
+1668886253;15.05710077;Greedy Search;(20, 8);(39, 10);4;0;0;150;6;Retorno à Base
+1668886255;16.80767012;Greedy Search;(39, 10);(16, 5);4;1;38;188;6;Recolha de Encomenda
+1668886256;18.27463508;Greedy Search;(16, 5);(9, 6);4;2;12;200;5;Recolha de Encomenda
+1668886258;19.71828222;Greedy Search;(9, 6);(2, 4);4;3;15;215;4;Recolha de Encomenda
+1668886259;21.23409033;Greedy Search;(2, 4);(2, 16);4;4;12;227;3;Recolha de Encomenda
+1668886261;22.78934669;Greedy Search;(2, 16);(39, 10);4;0;0;294;2;Retorno à Base
+1668886262;24.23100829;Greedy Search;(39, 10);(13, 14);4;1;40;334;2;Recolha de Encomenda
+1668886264;25.70230842;Greedy Search;(13, 14);(6, 14);4;2;11;345;1;Recolha de Encomenda
+1668886265;27.23264742;Greedy Search;(6, 14);(39, 10);4;0;0;398;0;Retorno à Base
+1668886273;1.578563452;A* Search;(39, 10);(33, 14);4;1;14;14;14;Recolha de Encomenda
+1668886275;3.176994085;A* Search;(33, 14);(27, 14);4;2;6;20;13;Recolha de Encomenda
+1668886276;4.903223515;A* Search;(27, 14);(27, 5);4;3;9;29;12;Recolha de Encomenda
+1668886278;6.497060537;A* Search;(27, 5);(29, 7);4;4;4;33;11;Recolha de Encomenda
+1668886280;8.126337528;A* Search;(29, 7);(39, 10);4;0;0;46;10;Retorno à Base
+1668886281;9.68335247;A* Search;(39, 10);(38, 5);4;1;20;66;10;Recolha de Encomenda
+1668886283;11.34292293;A* Search;(38, 5);(23, 9);4;2;23;89;9;Recolha de Encomenda
+1668886285;13.08619404;A* Search;(23, 9);(20, 8);4;3;4;93;8;Recolha de Encomenda
+1668886286;14.6450212;A* Search;(20, 8);(20, 13);4;4;5;98;7;Recolha de Encomenda
+1668886288;16.12031722;A* Search;(20, 13);(39, 10);4;0;0;126;6;Retorno à Base
+1668886289;17.71205616;A* Search;(39, 10);(16, 5);4;1;36;162;6;Recolha de Encomenda
+1668886291;19.31747651;A* Search;(16, 5);(9, 6);4;2;12;174;5;Recolha de Encomenda
+1668886292;20.79294753;A* Search;(9, 6);(2, 4);4;3;13;187;4;Recolha de Encomenda
+1668886294;22.27745366;A* Search;(2, 4);(2, 16);4;4;12;199;3;Recolha de Encomenda
+1668886295;23.75288081;A* Search;(2, 16);(39, 10);4;0;0;246;2;Retorno à Base
+1668886297;25.22817302;A* Search;(39, 10);(13, 14);4;1;38;284;2;Recolha de Encomenda
+1668886298;26.67235732;A* Search;(13, 14);(6, 14);4;2;11;295;1;Recolha de Encomenda
+1668886300;28.12544703;A* Search;(6, 14);(39, 10);4;0;0;340;0;Retorno à Base

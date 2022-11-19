@@ -378,21 +378,26 @@ while opcao!=9:
         #METHOD = 'Breadth'
         total_load = 0
         custo_total = 0
-
+        tempo_pesquisa_fim = 0
+        pesquisa_fim = 0
         while len(all_locations)>0:
             while total_load < CAPACITY and len(all_locations)>0:
+                tempo_pesquisa_inicio = time.time()
                 for location in all_locations:
-                    came_from, cost_so_far = a_star_search(diagram4, start, location)
                     if algoritmo==3:
+                        came_from, cost_so_far = greedy(diagram4, start, location)
                         all_locations[location] = heuristic(start, location)
                     elif algoritmo==4:
+                        came_from, cost_so_far = a_star_search(diagram4, start, location)
                         all_locations[location] = cost_so_far[location] + heuristic(start, location)
                     elif algoritmo==2:
+                        came_from, cost_so_far = dijkstra_search(diagram4, start, location)
                         all_locations[location] = cost_so_far[location]
                     
                     #all_locations[location] = cost_so_far[location]
-
+                
                 left_locations = sorted(all_locations, key = all_locations.get)
+                tempo_pesquisa_fim += (time.time() - tempo_pesquisa_inicio)
                 print("Artigos por Recolher : " + str(len(all_locations)))
                 print("Localizações : ")
                 print(all_locations)
@@ -403,6 +408,7 @@ while opcao!=9:
                 print("Próximo Destino : " + str(location))
                 #draw_grid(diagram4, point_to=came_from, start=start, goal=location)
                 #print(came_from)
+                pesquisa_inicio = time.time()
                 if algoritmo==1:
                     came_from, cost_so_far = breadth_first_search(diagram4, start, location)
                 elif algoritmo==2:
@@ -411,10 +417,11 @@ while opcao!=9:
                     came_from, cost_so_far = greedy(diagram4, start, location)
                 elif algoritmo==4:
                     came_from, cost_so_far = a_star_search(diagram4, start, location)
+                pesquisa_fim += (time.time() - pesquisa_inicio)
                 draw_grid(diagram4, path=reconstruct_path(came_from, start=start, goal=location))
                 total_load += 1
                 custo_total += cost_so_far[location]
-                writer.writerow([time.time(),(time.time() - start_time),tipo_algoritmo(algoritmo),start,location,CAPACITY,total_load,cost_so_far[location],custo_total,len(all_locations),"Recolha de Encomenda"])
+                writer.writerow([time.time(),(time.time() - start_time),tempo_pesquisa_fim,pesquisa_fim,tipo_algoritmo(algoritmo),start,location,CAPACITY,total_load,cost_so_far[location],custo_total,len(all_locations),"Recolha de Encomenda"])
                 print(custo_total)
                 del all_locations[location]
                 #draw_grid(diagram4, number=cost_so_far, start=start, goal=location)
@@ -443,7 +450,7 @@ while opcao!=9:
             draw_grid(diagram4, path=reconstruct_path(came_from, start=start, goal=goal))
             total_load = 0
             custo_total += cost_so_far[goal]
-            writer.writerow([time.time(),(time.time() - start_time),tipo_algoritmo(algoritmo),start,goal,CAPACITY,total_load,cost_so_far[location],custo_total,len(all_locations),"Retorno à Base"])
+            writer.writerow([time.time(),(time.time() - start_time),tempo_pesquisa_fim,pesquisa_fim,tipo_algoritmo(algoritmo),start,goal,CAPACITY,total_load,cost_so_far[location],custo_total,len(all_locations),"Retorno à Base"])
             start = goal
             print()
 
